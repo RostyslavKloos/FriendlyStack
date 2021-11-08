@@ -3,8 +3,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
     }
 }
+
 rootProject.name = "FriendlyStack"
-include ':app'
+include(":app")
+include(":constants")
+include(":components")
+include(":core")
